@@ -1547,5 +1547,73 @@
 				</div>
 			</div>
 		</section>
+		<!-- contact form -->
+
+		<section id="contact">
+			<div class="container-lg">
+				<div class="text-center">
+					<h2>Contact</h2>
+					<p class="lead">Ai o intrebare? Contacteaza producatorul direct...</p>
+				</div>
+				<div class="row justify-content-center my-5">
+					<div class="col-lg-6">
+						<form>
+							<label for="email" class="form-label">Email:</label>
+							<div class="mb-4 input-group">
+								<span class="input-group-text">
+									<i class="bi bi-envelope-at"></i>
+								</span>
+								<input
+									type="email"
+									class="form-control"
+									id="email"
+									placeholder="e.g. mario@example.com"
+								/>
+							</div>
+
+							<label for="name" class="form-label">Nume:</label>
+							<div class="mb-4 input-group">
+								<span class="input-group-text">
+									<i class="bi bi-person"></i>
+								</span>
+								<input
+									type="text"
+									class="form-control"
+									id="name"
+									placeholder="e.g. Mario"
+								/>
+							</div>
+
+							<label for="subject" class="form-label"
+								>Care este subiectul intrebarii?</label
+							>
+							<div class="mb-4 input-group">
+								<span class="input-group-text">
+									<i class="bi bi-chat-right-dots"></i>
+								</span>
+								<select class="form-select" id="subject">
+									<option value="pricing" selected>Pret</option>
+									<option value="content">Continutul pachetului</option>
+									<option value="other">altceva</option>
+								</select>
+							</div>
+
+							<div class="form-floating mb-4 mt-5">
+								<textarea
+									id="query"
+									class="form-control"
+									style="height: 140px"
+								></textarea>
+								<label for="query" class="form-label">Mesajul tau</label>
+							</div>
+
+							<div class="mb-4 text-center">
+								<button type="submit" class="btn btn-secondary">Trimite</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
